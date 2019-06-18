@@ -8,13 +8,15 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -291,10 +293,10 @@ header {
 /* HOW IT WORKS */
 /* ------------------------------------------------------------ */
 
-
 .section-steps {
   background-color: #f4f4f4;
 }
+
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
